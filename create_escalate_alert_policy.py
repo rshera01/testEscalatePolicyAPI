@@ -45,7 +45,7 @@ def create_escalate_alert_policy(data):
     try:
         #url = "https://{0}/api/v2/tenants/{1}/scheduleMaintenances".format(API_SERVER, CLIENT_ID)
         url = "https://api.vistara.io/api/v2/tenants/msp_588058/escalations"
-        headers = {'Content-Type': 'application/json', "Authorization" : "Bearer " + "9796d277-55fb-49c8-8c04-8175d574b038"}
+        headers = {'Content-Type': 'application/json', "Authorization" : "Bearer " + "9796d277-rtrt-49c8-trtt-8175d574b038"}
         #result = httpRequest(url, policy_payload(), headers, 'POST')
         #print(result)
         data = policy_payload()
